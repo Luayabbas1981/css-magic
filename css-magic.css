@@ -16,7 +16,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    scale: 1.1;
+    scale: 1.2;
 }
 @media (max-width: 900px) {
     frame {
@@ -253,7 +253,7 @@ body {
     position: relative;
     width: 30px;
     height: 30px;
-    top: -395px;
+    top: -435px;
     left: -140px;
     animation: flower-fly1 2s 14.3s forwards, flower-fly2 2s 16.3s forwards;
     -webkit-animation: flower-fly1 2s 14.3s forwards, flower-fly2 2s 16.3s forwards;
@@ -319,12 +319,12 @@ body {
 }
 @keyframes flower-fly2 {
     to {
-        transform: translateY(250px);
-        -webkit-transform: translateY(250px);
-        -moz-transform: translateY(250px);
-        -ms-transform: translateY(250px);
-        -o-transform: translateY(250px);
-    }
+        transform: translateY(285px);
+        -webkit-transform: translateY(285px);
+        -moz-transform: translateY(285px);
+        -ms-transform: translateY(285px);
+        -o-transform: translateY(285px);
+}
 }
 .eyebrow-left {
     position: absolute;
