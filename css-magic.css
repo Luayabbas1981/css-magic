@@ -589,7 +589,7 @@ body {
     height: 42px;
     top: 0;
     left: 0px;
-    box-shadow: inset 5px 5px 0px 0px var(--color1);
+    box-shadow: inset 5px 4px 0px 0px var(--color1);
     rotate: 46deg;
     border-radius: 100% 0% 0% 0% / 100% 29% 23% 0%;
     -webkit-border-radius: 100% 0% 0% 0% / 100% 29% 23% 0%;
@@ -613,7 +613,7 @@ body {
     height: 14px;
     border-top: 5px solid var(--color1);
     border-top-left-radius: 73%;
-    top: 10px;
+    top: 9px;
     left: 49px;
     rotate: 222deg;
 }
@@ -1014,8 +1014,8 @@ body {
     top: 455px;
     left: 0px;
     background-color: white;
-    animation: sign 2.5s 21s linear forwards;
-    -webkit-animation: sign 2.5s 21s linear forwards;
+    animation: sign 1.5s 21s linear forwards;
+    -webkit-animation: sign 1.5s 21s linear forwards;
 }
 .pencil {
     position: absolute;
@@ -1026,10 +1026,8 @@ body {
     opacity: var(--opacity);
     background-color: var(--color1);
     rotate: 35deg;
-    animation: pencil 2.5s 21s linear forwards, show 1s 20s linear forwards, set 1s 23.5s forwards,
-        down 1s 24.5s forwards;
-    -webkit-animation: pencil 2.5s 21s linear forwards, show 1s 20s linear forwards, set 1s 23.5s forwards,
-        down 1s 24.5s forwards;
+    animation: pencil 1.5s 21s linear forwards, show 1s 20s linear forwards, set 1s 23.5s forwards,        down 1s 24.5s forwards;
+    -webkit-animation: pencil 1.5s 21s linear forwards, show 1s 20s linear forwards, set 1s 23.5s forwards,        down 1s 24.5s forwards;
 }
 .pencil::after {
     content: "";
@@ -1062,7 +1060,7 @@ body {
 
 @keyframes pencil {
     to {
-        left: 160px;
+        left: 173px;
     }
 }
 @keyframes set {
