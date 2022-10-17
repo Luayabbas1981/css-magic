@@ -551,8 +551,8 @@ body {
     -moz-transform: scaleY(0);
     -ms-transform: scaleY(0);
     -o-transform: scaleY(0);
-    animation: open-eye 0.9s 19.2s forwards;
-    -webkit-animation: open-eye 0.9s 19.2s forwards;
+    animation: open-eye 0.9s 20.2s forwards;
+    -webkit-animation: open-eye 0.9s 20.2s forwards;
 }
 .hide-left-eye {
     position: absolute;
@@ -569,8 +569,8 @@ body {
     -moz-transform: scaleY(0);
     -ms-transform: scaleY(0);
     -o-transform: scaleY(0);
-    animation: open-eye 0.9s 19.2s forwards;
-    -webkit-animation: open-eye 0.9s 19.2s forwards;
+    animation: open-eye 0.9s 20.2s forwards;
+    -webkit-animation: open-eye 0.9s 20.2s forwards;
 }
 .blink-left {
     position: relative;
@@ -579,8 +579,8 @@ body {
     top: -5px;
     left: -167px;
     opacity: var(--opacity);
-    animation: show 1s forwards, close-eye-brow 0.8s 19s linear forwards;
-    -webkit-animation: show 1s forwards, close-eye-brow 0.8s 19s linear forwards;
+    animation: show 1s forwards, close-eye-brow 0.8s 20s linear forwards;
+    -webkit-animation: show 1s forwards, close-eye-brow 0.8s 20s linear forwards;
 }
 
 .blink-l1,
@@ -645,8 +645,8 @@ body {
     top: -5px;
     left: -203px;
     opacity: var(--opacity);
-    animation: show 0.5s 0.3s linear forwards, close-eye-brow 0.8s 19s linear forwards;
-    -webkit-animation: show 0.5s 0.3s linear forwards, close-eye-brow 0.8s 19s linear forwards;
+    animation: show 0.5s 0.3s linear forwards, close-eye-brow 0.8s 20s linear forwards;
+    -webkit-animation: show 0.5s 0.3s linear forwards, close-eye-brow 0.8s 20s linear forwards;
 }
 .blink-r2 {
     position: absolute;
@@ -1015,8 +1015,8 @@ body {
     top: 455px;
     left: 0px;
     background-color: white;
-    animation: sign 1.5s 21s linear forwards;
-    -webkit-animation: sign 1.5s 21s linear forwards;
+    animation: sign 1.5s 22s linear forwards;
+    -webkit-animation: sign 1.5s 22s linear forwards;
 }
 .pencil {
     position: absolute;
@@ -1027,8 +1027,8 @@ body {
     opacity: var(--opacity);
     background-color: var(--color1);
     rotate: 35deg;
-    animation: pencil 1.5s 21s linear forwards, show 1s 20s linear forwards, set 1s 23.5s forwards,        down 1s 24.5s forwards;
-    -webkit-animation: pencil 1.5s 21s linear forwards, show 1s 20s linear forwards, set 1s 23.5s forwards,        down 1s 24.5s forwards;
+    animation: pencil 1.5s 22s linear forwards, show 1s 21s linear forwards, set 1s 24s forwards,        down 1s 25s forwards;
+    -webkit-animation: pencil 1.5s 22s linear forwards, show 1s 21s linear forwards, set 1s 24s forwards,        down 1s 25s forwards;
 }
 .pencil::after {
     content: "";
