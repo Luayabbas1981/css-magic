@@ -6,7 +6,7 @@ body {
     overflow: hidden;
     font-family: "Passions Conflict", cursive;
     --color1: rgba(0, 0, 0, 0.8);
-    --color2: rgb(124, 124, 248);
+    --color2: rgb(124, 125, 248);
     --opacity: 0;
 }
 .frame {
