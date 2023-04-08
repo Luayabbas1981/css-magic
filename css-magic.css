@@ -472,7 +472,7 @@ body {
     left: 292px;
     width: 30px;
     height: 7px;
-    background-color: rgba(255, 0, 0, 0.5);
+    background-color: #ff00003e;
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -489,7 +489,7 @@ body {
     left: 183px;
     width: 30px;
     height: 7px;
-    background-color: rgba(255, 0, 0, 0.5);
+    background-color: #ff00003e;
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
