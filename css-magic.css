@@ -6,8 +6,9 @@ body {
     overflow: hidden;
     font-family: "Passions Conflict", cursive;
     --color1: #4a4a4acc;
-    --color2: #7c7df8;
-    --hair: #ad84f5;
+    --color2: #bcbcbc;
+    --hair: #99989a;
+    --eyes:#bcbcbc;
     --face: #4a4a4acc;
     --opacity: 0;
 }
@@ -800,7 +801,7 @@ body {
     position: absolute;
     width: 23px;
     height: 15px;
-    border-top: 13px solid rgb(187, 187, 237);
+    border-top: 13px solid var(--eyes);
     border-top-left-radius: 73%;
     top: -4px;
     left: -1px;
@@ -813,7 +814,7 @@ body {
     position: absolute;
     width: 23px;
     height: 15px;
-    border-top: 13px solid rgb(187, 187, 237);
+    border-top: 13px solid var(--eyes);
     border-top-right-radius: 73%;
     top: -6px;
     left: 12px;
@@ -945,7 +946,7 @@ body {
     position: absolute;
     width: 23px;
     height: 15px;
-    border-top: 13px solid rgb(187, 187, 237);
+    border-top: 13px solid var(--eyes);
     border-top-left-radius: 73%;
     top: -4px;
     left: -1px;
@@ -958,7 +959,7 @@ body {
     position: absolute;
     width: 23px;
     height: 15px;
-    border-top: 13px solid rgb(187, 187, 237);
+    border-top: 13px solid var(--eyes);
     border-top-right-radius: 73%;
     top: -6px;
     left: 12px;
